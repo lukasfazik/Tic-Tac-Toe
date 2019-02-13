@@ -83,7 +83,7 @@ class Player:
                 print("You haven't entered a number! Try again.")
                 continue
             if position not in range(1, 10):
-                print("You have entered a number not in range between one and ten.")
+                print("You have entered a number not in range between one and nine.")
                 continue
             else:
                 if board.set(self, position) == "position occupied":
